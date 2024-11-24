@@ -1,9 +1,9 @@
-## Interface: 30402
+## Interface: 40401
 ## IconTexture: 2056011
 ## Title: Chat Emotes (Discord)
 ## Notes: 
 ## Author: Vladinator (Vladinator-TarrenMill)
-## Version: 3.4.2.230919 (@project-version@)
+## Version: 4.4.1.241124 (@project-version@)
 ## SavedVariables: 
 ## Dependencies: ChatEmotes
 ## X-Curse-Project-ID: 551603
