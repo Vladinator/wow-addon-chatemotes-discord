@@ -182,7 +182,8 @@ foreach ($item in $outputData.db) {
     }
     $x = $totalCol * $totalImageEmojiSize
     $y = $totalRow * $totalImageEmojiSize
-    $totalImage.DrawImage($emoteBitmap, $x, $y, $totalImageEmojiSize, $totalImageEmojiSize)
+    $padding = 1 # when resizing the image down we also add 1px of padding around it to avoid bleeding into neighbors
+    $totalImage.DrawImage($emoteBitmap, $x + $padding, $y + $padding, $totalImageEmojiSize - ($padding * 2), $totalImageEmojiSize - ($padding * 2))
     if (-not $SKIP_ASSET_EXTRACTION) {
         $emoteBitmap.Dispose()
     }
