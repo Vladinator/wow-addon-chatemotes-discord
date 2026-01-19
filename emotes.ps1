@@ -4,6 +4,9 @@ Extract the existing standard emojis by opening the emoji picker, and then
 using this script to process all the available standard emojis.
 Copy the output and paste it further below in this script.
 
+The script requires these tools:
+`blppng.ps1` a custom script that takes a blp and converts it into png using `BLP2PNG` by John Stephen
+
 (async () => {
     const task = async (func) => {
         return new Promise(async (resolve) => {
